@@ -1,0 +1,24 @@
+{
+  "name": "rabbitmqexample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publisher": "node publisher.js",
+    "consumer": "node consumer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tanbery/RabbitMQExample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tanbery/RabbitMQExample/issues"
+  },
+  "homepage": "https://github.com/Tanbery/RabbitMQExample#readme",
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
